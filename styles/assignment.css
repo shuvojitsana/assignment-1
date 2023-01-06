@@ -6,7 +6,6 @@
 .header{
     text-align: right;
     background-size: cover;
-    justify-content: center;
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
     height: 100vh;
@@ -103,4 +102,62 @@
 .text .btn-primary{
     padding: 15px 38px;
     font-size: 18px;
+}
+
+/* footer section style */
+.footer-foot{
+    display: flex;
+    background-color: black;
+    height: 450px;
+    
+}
+.footer-foot-it{
+    color: #ffffff;
+    padding: 90px 350px 0px 240px;
+    
+}
+.footer-img{
+    margin-top:15px;
+    
+}
+.footer-foot-title{
+    font-weight: 800;
+    font-size: 32px;
+    padding-bottom: 7px;
+}
+.footer-foot-description{
+    padding-bottom: 10px;
+}
+
+
+.sub-footer-foot{
+    padding-top: 90px;
+    margin-right: 320px;
+
+}
+.sub-footer-foot input{
+    padding: 10px 45px;
+    border: 1px solid #ffffff;
+    background-color: black;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 15px;
+    
+}
+
+.sub-footer-foot-title{
+    color: #ffffff;
+    font-size: 17px;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+.btn-footer{
+    padding: 10px 30px;
+    background: #005FAC;
+    border-radius: 8px;
+    margin-top: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+
 }
