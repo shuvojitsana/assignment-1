@@ -31,6 +31,7 @@
     font-size: 13px;
     font-weight: 800;
     border:none;
+    cursor: pointer;
 }
 
 /*  about , about-item styles */
@@ -58,7 +59,7 @@
 .about-it{
     list-style: none;
     padding-bottom: 8px;
-    list-style: url(../images/checkmark.svg);
+    list-style: url(../images/checkmark.svg); 
     
     
 }
@@ -67,15 +68,16 @@
 /* my-plans styles */
 .my-plans{
     display: flex;
-    gap: 150px;
+    gap: 155px;
     margin: 0px 250px;
     text-align: center;
+    padding-top: 25px;
 }
 .my-plans-header{
     text-align: center;
     font-weight: 600;
     font-size: 45px;
-    margin:180px 0px 50px 0;
+    margin:150px 0px 45px 0;
 }
 .my-plans-title{
     padding-top: 15px;
@@ -91,7 +93,7 @@
     border-radius: 5px;
 }
 .text-description{
-    padding:45px 350px 45px 60px;
+    padding:40px 350px 45px 60px;
 }
 .text-title{
     font-weight: 600;
@@ -100,64 +102,73 @@
 
 }
 .text .btn-primary{
-    padding: 15px 38px;
+    padding: 13px 29px;
     font-size: 18px;
+
 }
 
 /* footer section style */
-.footer-foot{
+.footer{
     display: flex;
     background-color: black;
     height: 450px;
     
 }
-.footer-foot-it{
+.footer-it{
     color: #ffffff;
     padding: 90px 350px 0px 240px;
     
 }
+.footer-mail{
+    padding-bottom: 9px;
+    cursor: pointer;
+}
 .footer-img{
-    margin-top:15px;
+    margin-top:18px;
     
 }
-.footer-foot-title{
+.footer-title{
     font-weight: 800;
     font-size: 32px;
-    padding-bottom: 7px;
+    padding-bottom: 12px;
 }
-.footer-foot-description{
+.footer-description{
     padding-bottom: 10px;
 }
 
 
-.sub-footer-foot{
-    padding-top: 90px;
+.sub-footer{
+    padding-top: 100px;
     margin-right: 320px;
 
 }
-.sub-footer-foot input{
+.sub-footer input{
     padding: 10px 45px;
     border: 1px solid #ffffff;
     background-color: black;
     border-radius: 5px;
     color: #ffffff;
     font-size: 15px;
+    outline: none;
+
     
 }
 
-.sub-footer-foot-title{
+.sub-footer-title{
     color: #ffffff;
     font-size: 17px;
     padding-bottom: 15px;
     font-weight: 700;
+    margin-bottom: 7px;
 }
 .btn-footer{
     padding: 10px 30px;
     background: #005FAC;
     border-radius: 8px;
-    margin-top: 15px;
+    margin-top: 12px;
     color: #ffffff;
     font-weight: 400;
     font-size: 15px;
+    cursor: pointer;
 
 }
